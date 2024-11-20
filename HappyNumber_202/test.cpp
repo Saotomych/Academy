@@ -1,7 +1,6 @@
 #include <gtest/gtest.h>
 #include "happy_number.hpp"
 
-
 TEST(HappyNumberTest, PositiveTestCases) 
 {
     EXPECT_TRUE(isHappy(19));  // Число 19 счастливо

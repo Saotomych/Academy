@@ -15,7 +15,7 @@ bool isHappy(int n)
             {
                 int digit = n % 10; 
                 newNumber += digit * digit;
-                n /= 10; // 
+                n /= 10;
             }
 
             n = newNumber;
